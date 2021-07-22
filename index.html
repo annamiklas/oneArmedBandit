@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Jednoręki bandyta</title>
+</head>
+<body>
+    <h1 class = 'title'>JEDNORĘKI BANDTYA!</h1>
+    <section class="game">
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+    </section>
+    <section class = 'play'>
+        <input class = "money" type="number" placeholder="Podaj stawkę" id = 'bid'>
+        <button id = 'start' class = 'playButton'>Zagraj!</button>
+    </section>
+    <section class ='panel'>twoje środki przed koleją grą: <span class = "amount"></span></section>
+
+    <section class = 'score'><span class = "losses"></span> Za Tobą <span class = "numbOfGame"></span> gier, w tym 
+        <span class = 'numbOfWin'></span> wygranych i <span class = 'numbOfLoses'></span> przegranych.</section>
+
+    <script src = Wallet.js></script>
+    <script src = Statistics.js></script>
+    <script src = Draw.js></script>
+    <script src = Result.js></script>
+    <script src = Game.js></script>
+    <script src = main.js></script>
+</body>
+</html>
